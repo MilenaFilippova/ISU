@@ -1,0 +1,23 @@
+package com.example.sector;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+     {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        setContentView(new SectorView(this));
+
+       /* PieChart pieChart = findViewById(R.id.piechart);
+        pieChart.setUsePercentValues(true);
+
+        List<PieEntry> value = new ArrayList<>();
+        value.add(new PieEntry(value:40f,label: "one"));
+*/
+     }
+}
