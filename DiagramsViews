@@ -1,0 +1,23 @@
+package com.example.sector;
+
+import android.view.View;
+
+public class DiagramsView extends View {
+
+    float x;
+    float y;
+    float startAngle;
+    Path sect
+    public {
+        float sweepAngle;
+        float radias;
+        Path sector;
+
+        public void draw(Canvas canvas, Paint p)
+        {
+            float dx = (float) {radias:}
+            float dx = (float) {radias:}
+        }
+
+    }
+}
